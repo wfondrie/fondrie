@@ -7,6 +7,8 @@ Description: This is just a package of functions I use relatively frequently.
     warned they may not always be in an operational state.
 Depends:
     R (>= 3.2.3)
+Suggests:
+    igraph
 License: MIT
 Encoding: UTF-8
 LazyData: true
