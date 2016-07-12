@@ -30,6 +30,6 @@ adj2graphml <- function(adjMat,
     }
   }
 
-  write.graph(g, filename, format = "graphml")
+  igraph::write.graph(g, filename, format = "graphml")
   return(g)
 }
