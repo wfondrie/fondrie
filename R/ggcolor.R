@@ -10,6 +10,7 @@
 #' ggcolor(2)
 #' @references
 #' http://stackoverflow.com/questions/8197559/emulate-ggplot2-default-color-palette
+#' @export
 
 ggcolor <- function(n) {
   hues = seq(15, 375, length = n + 1)
