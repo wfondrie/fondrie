@@ -1,0 +1,11 @@
+Package: fondrie
+Title: A collection of functions I use
+Version: 0.0.0.9000
+Authors@R: person("Will", "Fondrie", email = "fondriew@gmail.com", role = c("aut", "cre"))
+Description: This is just a package of functions I use relatively frequently.
+They're likely to be related to ggplot, mass spectrometry or proteomics. Just be
+warned they may not always be in an operational state.
+Depends: R (>= 3.2.3)
+License: MIT
+Encoding: UTF-8
+LazyData: true
