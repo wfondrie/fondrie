@@ -20,7 +20,7 @@ adj2graphml <- function(adjMat,
                         nodeAttributes,
                         threshold = 0.5) {
 
-  adjMat <- adjMat[abs(adjMat) < threshold] <- 0
+  adjMat[abs(adjMat) < threshold] <- 0
 
   g <- igraph::graph.adjacency(adjMat, mode = "undirected", weighted = T, diag = F)
 
